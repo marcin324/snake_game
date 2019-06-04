@@ -233,7 +233,7 @@ const playeSnakeGame = () => {
     clearCanvas();
     snakes = [];
     score = 0;
-    scoreElement.textContent = `Wynik: ${score}`;
+    scoreElement.textContent = `Score: ${score}`;
   };
 
   buttonClose.addEventListener('click', hideModal);
