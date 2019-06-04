@@ -108,7 +108,7 @@ const playeSnakeGame = () => {
       snakes.pop();
     } else {
       score += 10;
-      scoreElement.textContent = `Wynik: ${score}`;
+      scoreElement.textContent = `Score: ${score}`;
       createApple();
     }
 
